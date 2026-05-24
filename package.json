@@ -1,0 +1,26 @@
+{
+  "name": "aboodyali7",
+  "version": "1.0.0",
+  "description": "Vite + Capacitor Android App",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "cap:add": "npx cap add android",
+    "cap:sync": "npx cap sync android",
+    "cap:open": "npx cap open android",
+    "cap:run": "npx cap run android",
+    "android:build": "npx cap sync android && npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/core": "^5.7.0",
+    "@capacitor/android": "^5.7.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "typescript": "^5.0.0",
+    "@capacitor/cli": "^5.7.0"
+  }
+}
