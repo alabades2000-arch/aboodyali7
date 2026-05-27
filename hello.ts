@@ -1,1 +1,29 @@
-console.log("Hello from @workspace/scripts");
+const categories = [
+  { id: 1, title: "العطارية", icon: "🌿" },
+  { id: 2, title: "العطور", icon: "🧴" },
+  { id: 3, title: "مواد غذائية", icon: "🛒" },
+  { id: 4, title: "الإنشائية", icon: "🏗️" },
+  { id: 5, title: "الموبايلات", icon: "📱" },
+  { id: 6, title: "المطاعم", icon: "🍔" },
+  { id: 7, title: "الأسماك", icon: "🐟" },
+  { id: 8, title: "مواد منزلية", icon: "🏠" },
+  { id: 9, title: "مكملات كمال أجسام", icon: "💪" },
+  { id: 10, title: "الورود والهدايا", icon: "🌹" },
+  { id: 11, title: "النراكيل والمعسلات", icon: "💨" },
+  { id: 12, title: "قشطة وحليب", icon: "🥛" },      // تم التصحيح من "فشطوطة"
+  { id: 13, title: "الحلويات", icon: "🍰" },
+  { id: 14, title: "الكوزمتك", icon: "💄" },
+  { id: 15, title: "ملابس نساء", icon: "👗" },
+  { id: 16, title: "ملابس رجال", icon: "👔" },
+  // أصناف جديدة
+  { id: 17, title: "الكترونيات", icon: "💻" },
+  { id: 18, title: "الأثاث المنزلي", icon: "🛋️" },
+  { id: 19, title: "الكتب والقرطاسية", icon: "📚" },
+  { id: 20, title: "الألعاب والهوايات", icon: "🧸" },
+  { id: 21, title: "سوبر ماركت", icon: "🛍️" },
+  { id: 22, title: "منتجات عضوية", icon: "🥦" },
+  { id: 23, title: "سيارات وملحقاتها", icon: "🚗" },
+  { id: 24, title: "الصيدليات", icon: "💊" },
+  { id: 25, title: "الحيوانات الأليفة", icon: "🐶" },
+  { id: 26, title: "المستلزمات الرياضية", icon: "🏀" }
+];
